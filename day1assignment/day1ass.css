@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+    
+    width: 100%;
+    background-color: blue;
+    display: inline-block;
+}
+
+
+
+.card{
+    height: 200px;
+    width: 18%;
+    background-color: yellow;
+    display:inline-block;
+}
+
+
+
+/* media queries In mobile */
+
+
+@media(max-width:490px){
+    .card{
+        
+        width:90%;
+    }
+}
